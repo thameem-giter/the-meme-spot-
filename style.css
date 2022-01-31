@@ -1,0 +1,336 @@
+body {
+  background: #1b1b1b;
+  user-select: none;
+  overflow: hidden;
+}
+h1 {
+  color: #ff4800da;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 70px;
+  position: relative;
+  bottom: 0.2cm;
+  left: 4cm;
+  text-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+img.logo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 40px;
+  top: 40px;
+  border-radius: 100px;
+  transition: 0.5s;
+  scale: 1;
+}
+img.logo:hover {
+  transform: scale(1.25);
+}
+
+@keyframes sub {
+  form {
+    top: 0cm;
+  }
+  to {
+    top: -1cm;
+  }
+}
+@keyframes sub1 {
+  from {
+    top: -1cm;
+  }
+  to {
+    top: 0cm;
+  }
+}
+a.Home {
+  color: white;
+  position: relative;
+  bottom: 2.7cm;
+  left: 18cm;
+  font-size: 0.7cm;
+  text-decoration: none;
+  font-family: "Verdana";
+  text-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+a.Videos {
+  color: white;
+  position: relative;
+  bottom: 2.7cm;
+  left: 22cm;
+  font-size: 0.7cm;
+  text-decoration: none;
+  font-family: "Verdana";
+  text-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+a.About {
+  color: white;
+  position: relative;
+  bottom: 2.7cm;
+  left: 26cm;
+  font-size: 0.7cm;
+  text-decoration: none;
+  font-family: "Verdana";
+  text-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+text.sub {
+  color: white;
+  font-size: 1.4cm;
+  height: 8cm;
+  width: 10cm;
+  line-height: 5px;
+}
+a.bt1 {
+  position: relative;
+  text-decoration: none;
+  background-color: #ff7b00da;
+  padding: 0.3cm;
+  border-radius: 20px;
+  color: black;
+  font-family: "Poppins";
+  font-size: 120%;
+  left: 10%;
+  top: -1cm;
+  font-weight: bold;
+  animation-name: sub1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: 1s;
+  box-shadow: 0 1px 20px rgb(0, 0, 0);
+}
+a.bt2 {
+  position: relative;
+  text-decoration: none;
+  padding: 0.3cm;
+  border-radius: 20px;
+  font-family: "Poppins";
+  font-size: 120%;
+  left: 15%;
+  top: -1cm;
+  font-weight: bold;
+  animation-name: sub1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: 1s;
+  background-color: #1b1b1b;
+  color: #1b1b1b;
+}
+a.bt1:hover {
+  background-color: white;
+}
+a.bt2:hover {
+  background-color: #fffefdda;
+  color: black;
+  box-shadow: 0 1px 20px rgb(0, 0, 0);
+}
+@keyframes img1a {
+  from {
+    left: 28cm;
+  }
+  to {
+    left: 22cm;
+  }
+}
+img.img1 {
+  position: fixed;
+  left: 22cm;
+  top: 5cm;
+  height: 12cm;
+  width: 12cm;
+  border-radius: 3%;
+  box-shadow: 0 1px 50px 0 rgb(0, 0, 0);
+  animation-name: img1a;
+  animation-duration: 1.5s;
+}
+img.t1 {
+  position: absolute;
+  left: 1.5cm;
+  top: 8cm;
+  border-radius: 5%;
+  animation-name: tb;
+  animation-duration: 1s;
+  scale: (1);
+  transition: 0.5s;
+  box-shadow: 0 5px 25px 0 rgb(0, 0, 0);
+}
+img.t1:hover {
+  transform: scale(1.1);
+}
+
+img.t2 {
+  position: absolute;
+  left: 11.5cm;
+  top: 8cm;
+  border-radius: 5%;
+  animation-name: tb;
+  animation-duration: 1s;
+  scale: (1);
+  transition: 0.5s;
+  box-shadow: 0 5px 25px 0 rgb(0, 0, 0);
+}
+img.t2:hover {
+  transform: scale(1.1);
+}
+img.t3 {
+  position: absolute;
+  left: 21.5cm;
+  top: 8cm;
+  border-radius: 5%;
+  animation-name: tb;
+  animation-duration: 1s;
+  scale: (1);
+  transition: 0.5s;
+  box-shadow: 0 5px 25px 0 rgb(0, 0, 0);
+}
+img.t3:hover {
+  transform: scale(1.1);
+}
+img.t4 {
+  position: absolute;
+  left: 31.5cm;
+  top: 8cm;
+  border-radius: 5%;
+  animation-name: tb;
+  animation-duration: 1s;
+  scale: (1);
+  transition: 0.5s;
+  box-shadow: 0 5px 25px 0 rgb(0, 0, 0);
+}
+img.t4:hover {
+  transform: scale(1.1);
+}
+img.t5 {
+  position: absolute;
+  left: 1.5cm;
+  top: 15cm;
+  border-radius: 5%;
+  animation-name: ta;
+  animation-duration: 1s;
+  scale: (1);
+  transition: 0.5s;
+  box-shadow: 0 5px 25px 0 rgb(0, 0, 0);
+}
+img.t5:hover {
+  transform: scale(1.1);
+}
+img.t6 {
+  position: absolute;
+  left: 11.5cm;
+  top: 15cm;
+  border-radius: 5%;
+  animation-name: ta;
+  animation-duration: 1s;
+  scale: (1);
+  transition: 0.5s;
+  box-shadow: 0 5px 25px 0 rgb(0, 0, 0);
+}
+img.t6:hover {
+  transform: scale(1.1);
+}
+img.t7 {
+  position: absolute;
+  left: 21.5cm;
+  top: 15cm;
+  border-radius: 5%;
+  animation-name: ta;
+  animation-duration: 1s;
+  scale: (1);
+  transition: 0.5s;
+  box-shadow: 0 5px 25px 0 rgb(0, 0, 0);
+}
+img.t7:hover {
+  transform: scale(1.1);
+}
+img.t8 {
+  position: absolute;
+  left: 31.5cm;
+  top: 15cm;
+  border-radius: 5%;
+  animation-name: ta;
+  animation-duration: 1s;
+  scale: (1);
+  transition: 0.5s;
+  box-shadow: 0 5px 25px 0 rgb(0, 0, 0);
+}
+img.t8:hover {
+  transform: scale(1.1);
+}
+text.title {
+  position: relative;
+  font-family: Poppins;
+  color: white;
+  font-size: 35px;
+  left: 1cm;
+  animation-name: tc;
+  animation-duration: 1s;
+  text-shadow: 0 1px 50px rgb(0, 0, 0);
+}
+@keyframes ta {
+  from {
+    top: 15.5cm;
+  }
+  to {
+    top: 15cm;
+  }
+}
+@keyframes tb {
+  from {
+    top: 8.5cm;
+  }
+  to {
+    top: 8cm;
+  }
+}
+@keyframes tc {
+  from {
+    left: 0cm;
+  }
+  to {
+    left: 1cm;
+  }
+}
+img.about {
+  position: absolute;
+  border-radius: 3%;
+  bottom: 1.5cm;
+  left: 2cm;
+  box-shadow: 0 10px 50px rgb(0, 0, 0);
+  animation-name: aboutimg;
+  animation-duration: 1s;
+}
+text.about {
+  position: relative;
+  font-family: "Poppins";
+  color: white;
+  font-size: 25px;
+  line-height: 2cm;
+  left: 16.5cm;
+  top: -1cm;
+  animation-name: aboutt;
+  animation-duration: 1s;
+  text-shadow: 0 50px 50px rgb(0, 0, 0);
+}
+a.mail {
+  text-decoration: none;
+  color: aliceblue;
+}
+text.mail:hover {
+  color: coral;
+  transition: 1s;
+}
+@keyframes aboutimg {
+  from {
+    left: 0;
+  }
+  to {
+    left: 2cm;
+  }
+}
+@keyframes aboutt {
+  from {
+    top: 0cm;
+  }
+  to {
+    top: -1cm;
+  }
+}
